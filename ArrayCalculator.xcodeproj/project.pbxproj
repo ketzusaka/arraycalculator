@@ -20,6 +20,7 @@
 		7F7622AB160C22560039E575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F76228C160C22550039E575 /* Foundation.framework */; };
 		7F7622B3160C22560039E575 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F7622B1160C22560039E575 /* InfoPlist.strings */; };
 		7F7622B6160C22560039E575 /* ArrayCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7622B5160C22560039E575 /* ArrayCalculatorTests.m */; };
+		7F7622C1160C22790039E575 /* ArrayCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7622C0160C22780039E575 /* ArrayCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,23 @@
 		7F76228A160C22550039E575 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7F76228C160C22550039E575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F76228E160C22550039E575 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7F762292160C22550039E575 /* ArrayCalculator-Info.plist */ = {isa = PBXFileReference; path = "ArrayCalculator-Info.plist"; sourceTree = "<group>"; };
+		7F762292160C22550039E575 /* ArrayCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArrayCalculator-Info.plist"; sourceTree = "<group>"; };
 		7F762294160C22550039E575 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F762296160C22550039E575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F762298160C22550039E575 /* ArrayCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "ArrayCalculator-Prefix.pch"; sourceTree = "<group>"; };
-		7F762299160C22550039E575 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F762298160C22550039E575 /* ArrayCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArrayCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		7F762299160C22550039E575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F76229A160C22550039E575 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7F76229D160C22550039E575 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7F76229F160C22550039E575 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7F76229F160C22550039E575 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7F7622A0160C22550039E575 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7F7622A7160C22560039E575 /* ArrayCalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayCalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7622A8160C22560039E575 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7F7622B0160C22560039E575 /* ArrayCalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "ArrayCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		7F7622B0160C22560039E575 /* ArrayCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArrayCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		7F7622B2160C22560039E575 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7F7622B4160C22560039E575 /* ArrayCalculatorTests.h */ = {isa = PBXFileReference; path = ArrayCalculatorTests.h; sourceTree = "<group>"; };
+		7F7622B4160C22560039E575 /* ArrayCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayCalculatorTests.h; sourceTree = "<group>"; };
 		7F7622B5160C22560039E575 /* ArrayCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayCalculatorTests.m; sourceTree = "<group>"; };
+		7F7622BF160C22780039E575 /* ArrayCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayCalculator.h; sourceTree = "<group>"; };
+		7F7622C0160C22780039E575 /* ArrayCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				7F76229F160C22550039E575 /* ViewController.h */,
 				7F7622A0160C22550039E575 /* ViewController.m */,
 				7F762291160C22550039E575 /* Supporting Files */,
+				7F7622BF160C22780039E575 /* ArrayCalculator.h */,
+				7F7622C0160C22780039E575 /* ArrayCalculator.m */,
 			);
 			path = ArrayCalculator;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				7F762297160C22550039E575 /* main.m in Sources */,
 				7F76229B160C22550039E575 /* AppDelegate.m in Sources */,
 				7F7622A1160C22550039E575 /* ViewController.m in Sources */,
+				7F7622C1160C22790039E575 /* ArrayCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
