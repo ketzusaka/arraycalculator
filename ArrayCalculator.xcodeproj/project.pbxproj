@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F199B871612AB3D00A729DF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7F199B861612AB3D00A729DF /* README.md */; };
 		7F76228B160C22550039E575 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F76228A160C22550039E575 /* UIKit.framework */; };
 		7F76228D160C22550039E575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F76228C160C22550039E575 /* Foundation.framework */; };
 		7F76228F160C22550039E575 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F76228E160C22550039E575 /* CoreGraphics.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F199B861612AB3D00A729DF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		7F762286160C22550039E575 /* ArrayCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrayCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F76228A160C22550039E575 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7F76228C160C22550039E575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +86,7 @@
 		7F76227B160C22530039E575 = {
 			isa = PBXGroup;
 			children = (
+				7F199B861612AB3D00A729DF /* README.md */,
 				7F762290160C22550039E575 /* ArrayCalculator */,
 				7F7622AE160C22560039E575 /* ArrayCalculatorTests */,
 				7F762289160C22550039E575 /* Frameworks */,
@@ -229,6 +232,7 @@
 			files = (
 				7F762295160C22550039E575 /* InfoPlist.strings in Resources */,
 				7F76229E160C22550039E575 /* MainStoryboard.storyboard in Resources */,
+				7F199B871612AB3D00A729DF /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +442,7 @@
 				7F7622BB160C22560039E575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F7622BC160C22560039E575 /* Build configuration list for PBXNativeTarget "ArrayCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +451,7 @@
 				7F7622BE160C22560039E575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
